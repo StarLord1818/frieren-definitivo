@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Marcellus&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --roxo: #434573;
+    --azul: #A7E4F2;
+    --verde: #8ab47e;
+    --amarelo: #D9BA82;
+    --vermelho: #A65851;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #53497ac9;
+}
+header {
+    background-image: linear-gradient( to bottom, var(--azul), #506e75);
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.459);
+    padding: px;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font:  bold 3em 'Cinzel', sans-serif;
+    text-shadow: 0px 0px 10px lightblue;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cinzel';
+    color: white;
+    font-size: 5em;
+    padding-top: 10px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Marcellus';
+    padding-top: 10px;
+}
+nav {
+    padding: 10px;
+
+}
+nav a{
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+nav a:hover{
+    background-color: var(--vermelho);
+    text-decoration: underline;
+    color: white;
+}
+main {
+    text-align: center;
+}
+.personagem {
+    display: inline-block;
+    vertical-align:  top;
+}
+section {
+    color: white;
+    padding-bottom: 30px;
+}
+section p {
+    width: 370px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.personagem {
+    transition-duration: 1s;
+}
+.personagem h1, p {
+    display: none;
+}
+.personagem:hover {
+    margin-top: 10px;
+}
+.personagem:hover h1 {
+    display: block;
+}
+.personagem:hover p {
+    display: block;
+}
+img {
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
