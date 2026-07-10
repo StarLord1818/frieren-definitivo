@@ -19,11 +19,12 @@
 }
 body {
     background-color: #53497ac9;
+    width: 100vw;
 }
 header {
     background-image: linear-gradient( to bottom, var(--azul), #506e75);
     box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.459);
-    padding: px;
+    padding: 10px;
     position: sticky;
     top: 0;
 }
@@ -56,9 +57,9 @@ nav a:hover{
 h1 {
     text-align: center;
     font-family: 'Cinzel';
+    font-size: 3em;
     color: white;
-    font-size: 5em;
-    padding-top: 10px;
+    margin-top: 20px;
 }
 h2 {
     text-align: center;
@@ -87,58 +88,25 @@ nav a:hover{
     text-decoration: underline;
     color: white;
 }
-
-/*main {
-    text-align: center;
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
-.personagem {
-    display: inline-block;
-    vertical-align:  top;
-}
-section {
-    color: white;
-    padding-bottom: 30px;
-}
-section p {
-    width: 370px;
-    margin: auto;
-    margin-top: 10px;
-    font-size: 1.5em;
-}
-.personagem {
-    transition-duration: 1s;
-}
-.personagem h1, p {
-    display: none;
-}
-.personagem:hover {
-    margin-top: 10px;
-}
-.personagem:hover h1 {
-    display: block;
-}
-.personagem:hover p {
-    display: block;
-}
-img {
-    width: 370px;
-    margin: 50px 30px 0px 30px;
-}*/
 iframe {
     width: 99vw;
     height: 600px;
-
 }
 #botao {
     padding: 50px 0px;
     text-align: center;
+    display: block;
 }
 #botao > a {
     text-decoration: none;
     font-size: 3em;
+    font-family: 'Cinzel';
     color: white;
     background-color: var(--verde);
-    font-family: 'Cinzel';
     border-radius: 10px;
     padding: 5px;
     box-sizing: border-box;
@@ -150,9 +118,15 @@ iframe {
     font-size: 2.5em;
 }
 #companheiros {
-    margin-right: 500px;
+    margin: 10px;
 }
-#aura {
-    padding: -50px;
-    margin: auto;
+
+/*#companheiros {
+    display: block;
+    width: 150px;
 }
+#antigos {
+    display: block;
+    width: 150px;
+}
+*/
